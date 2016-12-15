@@ -1,0 +1,6 @@
+<tiles-definitions>
+	<definition name="template" template="/WEB-INF/jsp/templates/template.jsp" />
+	<definition name="*" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/{1}.jsp" />
+	</definition>
+</tiles-definitions>
